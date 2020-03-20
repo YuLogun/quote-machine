@@ -25,11 +25,11 @@ body {
 
 //intro
 .intro-container {
-  padding: 3%;
+  padding: 0 3%;
   h3, p {
     text-align: center;
     @media (max-width: 640px) {
-      font-size: 0.7rem;
+      font-size: 0.6rem;
     }
   }
 }
@@ -38,18 +38,12 @@ body {
   font-size: 3.5rem;
   font-weight: 400;
   @media (max-width: 640px) {
-    font-size: 2.3rem;
-  }
-  @media screen and (device-aspect-ratio: 40/71) {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .description {
     @media (max-width: 640px) {
-      font-size: 1.3rem;
-    }
-    @media screen and (device-aspect-ratio: 40/71) {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
   }
 }
@@ -71,6 +65,7 @@ button {
   box-sizing: border-box;
   @media (max-width: 640px) {
     font-size: 0.5rem;
+    min-height: 40px;
   }
 
   &:hover {
@@ -88,6 +83,7 @@ input {
   width: 70%;
   @media (max-width: 640px) {
     font-size: 0.5rem;
+    min-height: 40px;
   }
 }
 
@@ -109,8 +105,9 @@ input {
   border-radius: 3px;
 
   @media screen and (max-width: 640px) {
-    min-height: 200px;
+    min-height: 180px;
     height: auto;
+    margin: -9%;
   }
 
   h3 {
